@@ -138,7 +138,7 @@ public class ServiceProvider {
   }
   public void checkVersionRuleInADirectory() throws IOException {
     File[] fileList = getFilesInDirectory("/home/vishnutha/parser/src/main/resources/ftgo-order-service/src/main/java/net/chrisrichardson/ftgo/orderservice/domain");
-//    ArrayList<File> repositoryFiles = getRepositoryFiles(fileList);
+    ArrayList<File> repositoryFiles = getRepositoryFiles(fileList);
     for (File file : repositoryFiles) {
       checkVersionRuleForARepositoryFile(file);
     }
