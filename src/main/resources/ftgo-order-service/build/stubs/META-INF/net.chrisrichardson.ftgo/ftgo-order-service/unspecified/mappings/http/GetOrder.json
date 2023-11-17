@@ -1,0 +1,16 @@
+{
+  "id" : "216ccc07-18de-4a74-a004-6c4ad2d6c0b5",
+  "request" : {
+    "url" : "/orders/99",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"orderId\":\"99\",\"state\":\"APPROVAL_PENDING\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "216ccc07-18de-4a74-a004-6c4ad2d6c0b5"
+}

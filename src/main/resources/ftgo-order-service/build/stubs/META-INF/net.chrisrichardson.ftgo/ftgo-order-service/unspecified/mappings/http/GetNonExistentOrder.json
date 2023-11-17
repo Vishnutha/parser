@@ -1,0 +1,12 @@
+{
+  "id" : "0760329a-f7a7-4856-ab13-241f7ec535e5",
+  "request" : {
+    "url" : "/orders/555",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "0760329a-f7a7-4856-ab13-241f7ec535e5"
+}
